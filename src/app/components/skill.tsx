@@ -29,7 +29,7 @@ const skills: Skill[] = [
     {
         title: 'Tools',
         iconBg: 'bg-cyan-400/15',
-        tags: ['Git', 'GitHub', 'Vercel', 'Arduino'],
+        tags: ['Git', 'GitHub', 'Vercel'],
     },
 ];
 
