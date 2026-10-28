@@ -69,7 +69,7 @@ const BannerPage = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="GitHub profile"
-                            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/[0.03] text-gray-300 transition hover:border-violet-400/50 hover:bg-violet-500/10 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
+                            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/3 text-gray-300 transition hover:border-violet-400/50 hover:bg-violet-500/10 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
                         >
                             <FaGithub size={19} aria-hidden="true" />
                         </a>
@@ -78,7 +78,7 @@ const BannerPage = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="LinkedIn profile"
-                            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/[0.03] text-gray-300 transition hover:border-cyan-300/50 hover:bg-cyan-400/10 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
+                            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/3 text-gray-300 transition hover:border-cyan-300/50 hover:bg-cyan-400/10 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
                         >
                             <FaLinkedinIn size={18} aria-hidden="true" />
                         </a>

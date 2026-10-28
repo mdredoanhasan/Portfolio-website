@@ -35,7 +35,7 @@ export default function AboutSection() {
           </p>
         </div>
 
-        <div className="flex flex-1 flex-col divide-y divide-white/8 rounded-3xl border border-white/10 bg-white/[0.025]">
+        <div className="flex flex-1 flex-col divide-y divide-white/8 rounded-3xl border border-white/10 bg-white/2.5">
           {blocks.map((b) => (
             <div key={b.title} className="flex flex-col gap-3 p-5 sm:p-8">
               <h3 className="text-lg font-semibold sm:text-xl">{b.title}</h3>
