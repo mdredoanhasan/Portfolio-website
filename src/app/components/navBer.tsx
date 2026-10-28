@@ -8,6 +8,7 @@ import { useContactModal } from "./contactModal";
 const navigation = [
     { label: "Home", href: "/#home" },
     { label: "About", href: "/#about" },
+    { label: "Education", href: "/#education" },
     { label: "Project", href: "/#projects" },
     { label: "Contact", href: "/#contact" },
 ];
