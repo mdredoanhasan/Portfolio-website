@@ -128,7 +128,7 @@ export function ContactModalProvider({ children }: { children: ReactNode }) {
                             </label>
                             <button
                                 type="submit"
-                                className="w-full rounded-xl bg-gradient-to-r from-violet-600 to-violet-500 px-5 py-3.5 text-sm font-semibold text-white shadow-lg shadow-violet-950/30 transition hover:brightness-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 focus-visible:ring-offset-2 focus-visible:ring-offset-[#11111a]"
+                                className="cta-primary w-full rounded-xl px-5 py-3.5 text-sm font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 focus-visible:ring-offset-2 focus-visible:ring-offset-[#11111a]"
                             >
                                 Continue to email
                             </button>

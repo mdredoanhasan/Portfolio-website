@@ -43,9 +43,9 @@ export default function ContactSection() {
           <button
             type="button"
             onClick={openContactModal}
-            className="mt-2 inline-flex min-h-12 items-center justify-center rounded-full bg-violet-600 px-6 text-sm font-semibold text-white transition hover:bg-violet-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
+            className="cta-primary mt-2 inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 text-sm font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0a0a0f]"
           >
-            Start a conversation <span className="ml-2" aria-hidden="true">→</span>
+            Start a conversation <span aria-hidden="true">↗</span>
           </button>
         </div>
 

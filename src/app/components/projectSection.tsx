@@ -44,7 +44,7 @@ const ProjectSection = () => {
 
                                 <Link
                                     href={`/projects/${project.slug}`}
-                                    className="mt-5 inline-flex min-h-11 w-full items-center justify-center rounded-xl bg-violet-600 px-4 py-2.5 text-sm font-medium text-white transition hover:bg-violet-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
+                                    className="cta-secondary mt-5 inline-flex min-h-11 w-full items-center justify-center rounded-xl px-4 py-2.5 text-sm font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
                                 >
                                     View Details →
                                 </Link>

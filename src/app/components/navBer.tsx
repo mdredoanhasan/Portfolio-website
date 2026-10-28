@@ -50,7 +50,7 @@ const Navber = () => {
                         closeMenu();
                         openContactModal();
                     }}
-                    className="hidden rounded-full bg-violet-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-violet-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 md:inline-flex"
+                    className="cta-primary hidden rounded-full px-5 py-2.5 text-sm font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 md:inline-flex"
                 >
                     Hire me
                 </button>
@@ -89,7 +89,7 @@ const Navber = () => {
                                 closeMenu();
                                 openContactModal();
                             }}
-                            className="mt-2 rounded-xl bg-violet-600 px-4 py-3 text-sm font-semibold text-white transition hover:bg-violet-500"
+                            className="cta-primary mt-2 rounded-xl px-4 py-3 text-sm font-semibold"
                         >
                             Hire me
                         </button>
