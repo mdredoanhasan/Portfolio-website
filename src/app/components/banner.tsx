@@ -58,10 +58,9 @@ const BannerPage = () => {
                         </Link>
                         <button
                             type="button"
-                            onClick={openContactModal}
                             className="cta-secondary inline-flex min-h-12 items-center justify-center rounded-full px-6 text-sm font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0a0a0f]"
                         >
-                            Hire me
+                            Resume
                         </button>
                     </div>
 
