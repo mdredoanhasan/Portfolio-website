@@ -33,7 +33,7 @@ export default function ContactSection() {
       id="contact"
       className="scroll-mt-20 bg-[#0a0a0f] px-4 py-16 text-white sm:px-6 sm:py-20 lg:px-8 lg:py-24"
     >
-      <div className="mx-auto grid max-w-7xl gap-10 rounded-3xl border border-white/10 bg-gradient-to-br from-white/[0.045] to-white/[0.015] p-6 sm:p-10 lg:grid-cols-[1fr_0.8fr] lg:items-center lg:p-14">
+      <div className="mx-auto grid max-w-7xl gap-10 rounded-3xl border border-white/10 bg-linear-to-br from-white/4.5 to-white/1.5 p-6 sm:p-10 lg:grid-cols-[1fr_0.8fr] lg:items-center lg:p-14">
         <div className="flex flex-col items-start gap-5">
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-300">
             Contact
