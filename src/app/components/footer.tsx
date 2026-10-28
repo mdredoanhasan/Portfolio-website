@@ -3,7 +3,7 @@
 const links = [
     { label: 'GitHub', href: 'https://github.com/mdredoanhasan' },
     { label: 'LinkedIn', href: 'https://linkedin.com/in/md-redoan-hasan' },
-    { label: 'Instagram', href: '#' },
+    { label: 'Instagram', href: 'https://www.instagram.com/mdredoan_hasan?xtok=bWRtcG94Y2ZhczJ1' },
 ];
 
 const Footer = () => {

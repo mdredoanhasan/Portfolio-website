@@ -9,9 +9,9 @@ const links = [
     href: "mailto:redoanhasan02@gmail.com",
   },
   {
-    label: "WhatsApp",
+    label: "Phone",
     value: "+8801714701219",
-    href: "https://wa.me/8801714701219",
+    href: "tel:+8801714701219",
   },
   {
     label: "LinkedIn",
@@ -59,8 +59,12 @@ export default function ContactSection() {
             <li key={link.label}>
               <a
                 href={link.href}
-                target={link.href.startsWith("mailto:") ? undefined : "_blank"}
-                rel={link.href.startsWith("mailto:") ? undefined : "noreferrer"}
+                target={
+                  link.href.startsWith("https://") ? "_blank" : undefined
+                }
+                rel={
+                  link.href.startsWith("https://") ? "noreferrer" : undefined
+                }
                 className="flex items-center justify-between gap-4 rounded-2xl border border-white/10 bg-[#0a0a0f]/60 px-5 py-4 transition hover:border-cyan-300/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
               >
                 <span className="text-sm text-gray-400">{link.label}</span>
