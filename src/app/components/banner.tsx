@@ -3,7 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { GoDotFill } from "react-icons/go";
-import { useContactModal } from "./contactModal";
 
 const skills = [
     "React",
@@ -16,7 +15,6 @@ const skills = [
 ];
 
 const BannerPage = () => {
-    const openContactModal = useContactModal();
 
     return (
         <section
@@ -33,13 +31,13 @@ const BannerPage = () => {
             />
             <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
                 <div>
-                    <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 text-xs font-medium text-gray-300 sm:text-sm">
+                    <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/4 px-4 py-2 text-xs font-medium text-gray-300 sm:text-sm">
                         <GoDotFill className="text-emerald-400" aria-hidden="true" />
                         Available for freelance work
                     </span>
                     <h1 className="mt-7 max-w-3xl text-4xl font-bold leading-[1.08] tracking-tight text-white sm:text-5xl md:text-6xl xl:text-7xl">
                         Building fast, scalable web products from{" "}
-                        <span className="bg-gradient-to-r from-cyan-300 to-violet-400 bg-clip-text text-transparent">
+                        <span className="bg-linear-to-r from-cyan-300 to-violet-400 bg-clip-text text-transparent">
                             database to pixel.
                         </span>
                     </h1>
@@ -68,7 +66,7 @@ const BannerPage = () => {
                         {skills.map((skill) => (
                             <li
                                 key={skill}
-                                className="rounded-full border border-white/10 bg-white/[0.03] px-3.5 py-2 text-xs text-gray-300 sm:text-sm"
+                                className="rounded-full border border-white/10 bg-white/3 px-3.5 py-2 text-xs text-gray-300 sm:text-sm"
                             >
                                 {skill}
                             </li>
@@ -76,12 +74,12 @@ const BannerPage = () => {
                     </ul>
                 </div>
 
-                <div className="relative mx-auto w-full max-w-[430px] lg:max-w-none">
+                <div className="relative mx-auto w-full max-w-107.5 lg:max-w-none">
                     <div
                         aria-hidden="true"
                         className="absolute left-1/2 top-[42%] h-[62%] w-[78%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(ellipse_at_center,rgba(170,116,255,0.3)_0%,rgba(89,210,220,0.15)_48%,transparent_76%)] blur-2xl"
                     />
-                    <div className="relative mx-auto aspect-[2/3] w-full">
+                    <div className="relative mx-auto aspect-2/3 w-full">
                         <Image
                             src="/(Image)/banner.png"
                             alt="Portrait of Redoan Hasan"
