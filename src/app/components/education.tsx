@@ -36,13 +36,13 @@ export default function Education() {
               <p className="mt-2 text-sm text-gray-300">
                 Institute of Science and Technology, Dhanmondi
               </p>
-              <span className="mt-5 inline-flex items-center gap-2 rounded-full border border-cyan-300/15 bg-cyan-300/[0.06] px-3 py-1.5 text-xs font-medium text-cyan-200">
+              <span className="mt-5 inline-flex items-center gap-2 rounded-full border border-cyan-300/15 bg-cyan-300/6 px-3 py-1.5 text-xs font-medium text-cyan-200">
                 <FiCheckCircle aria-hidden="true" />
                 Currently in 3rd semester
               </span>
             </div>
 
-            <div className="border-t border-white/[0.08] pt-7 md:border-l md:border-t-0 md:pl-10 md:pt-1">
+            <div className="border-t border-white/8 pt-7 md:border-l md:border-t-0 md:pl-10 md:pt-1">
               <p className="text-sm font-medium text-violet-300">
                 Bachelor&apos;s degree
               </p>
@@ -58,7 +58,7 @@ export default function Education() {
                   (subject) => (
                     <span
                       key={subject}
-                      className="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1.5 text-xs text-gray-300 sm:text-sm"
+                      className="rounded-full border border-white/10 bg-white/3 px-3 py-1.5 text-xs text-gray-300 sm:text-sm"
                     >
                       {subject}
                     </span>
