@@ -1,0 +1,64 @@
+[
+    {
+    "id": 1,
+    "slug": "bazardor",
+    "name": "Bazardor",
+    "image": "/(Image)/bazardor.png",
+    "techStack": ["Next.js", "TypeScript", "MongoDB", "Authentication"],
+    "description": "A Bangla market price tracker that helps people check and compare daily prices of everyday goods.",
+    "liveLink": "https://project-bazardor.vercel.app",
+    "githubClient": "https://github.com/mdredoanhasan/Project-Bazardor",
+    "challenges": [
+      "Designing the MongoDB schema to handle prices that change often and vary by market.",
+      "Setting up secure user authentication and protecting private routes.",
+      "Supporting Bangla text and keeping the interface simple for everyday users."
+    ],
+    "futureImprovements": [
+      "Show price history charts and trends over time.",
+      "Add price alerts when an item goes above or below a chosen amount.",
+      "Let users submit prices and verify them to keep data accurate."
+    ]
+  },
+  
+  {
+    "id": 2,
+    "slug": "natures-platter",
+    "name": "Nature's Platter",
+    "image": "/(Image)/naturalplater.png",
+    "techStack": ["React", "Tailwind CSS", "JavaScript"],
+    "description": "A grocery e-commerce landing page that presents fresh products in a clean, easy-to-browse layout.",
+    "liveLink": "https://mdredoanhasan.github.io/Nature-s-Platter/",
+    "githubClient": "https://github.com/mdredoanhasan/Nature-s-Platter",
+    "challenges": [
+      "Building a consistent responsive layout for product sections across phones, tablets and desktops.",
+      "Optimizing product images so the page loads quickly without losing quality.",
+      "Making the design feel fresh and trustworthy for a grocery brand."
+    ],
+    "futureImprovements": [
+      "Add a working shopping cart and checkout flow.",
+      "Connect the site to a backend with a product database (Node.js and MongoDB).",
+      "Add product search, filters and customer reviews."
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "devstack",
+    "name": "DevStack",
+    "image": "/(Image)/devstack.png",
+    "techStack": ["React", "Tailwind CSS", "JavaScript"],
+    "description": "An interactive tech stack builder where users can explore and pick the tools they need for their next project.",
+    "liveLink": "https://mdredoanhasan.github.io/Project-DevStack/",
+    "githubClient": "https://github.com/mdredoanhasan/Project-DevStack",
+    "challenges": [
+      "Managing the state of selected technologies across multiple components so the stack updates instantly.",
+      "Designing a clean, responsive layout that stays easy to use on small screens.",
+      "Organizing many tools into clear categories without overwhelming the user."
+    ],
+    "futureImprovements": [
+      "Let users save and share their custom stacks with a link.",
+      "Add user accounts with login so stacks can be stored.",
+      "Add more technology categories and short comparisons between tools."
+    ]
+  }
+  
+]
