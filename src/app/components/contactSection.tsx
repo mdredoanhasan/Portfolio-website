@@ -9,6 +9,11 @@ const links = [
     href: "mailto:redoanhasan02@gmail.com",
   },
   {
+    label: "WhatsApp",
+    value: "+8801714701219",
+    href: "https://wa.me/8801714701219",
+  },
+  {
     label: "LinkedIn",
     value: "in/md-redoan-hasan",
     href: "https://linkedin.com/in/md-redoan-hasan",
