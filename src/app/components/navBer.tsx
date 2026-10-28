@@ -20,7 +20,7 @@ const Navber = () => {
     const closeMenu = () => setIsMenuOpen(false);
 
     return (
-        <header className="sticky top-0 z-40 border-b border-white/[0.06] bg-[#0a0a0f]/85 backdrop-blur-xl">
+        <header className="sticky top-0 z-40 border-b border-white/6 bg-[#0a0a0f]/85 backdrop-blur-xl">
             <nav
                 aria-label="Main navigation"
                 className="mx-auto flex min-h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8"
@@ -71,7 +71,7 @@ const Navber = () => {
             {isMenuOpen && (
                 <div
                     id="mobile-navigation"
-                    className="border-t border-white/[0.06] bg-[#0a0a0f] px-4 py-4 md:hidden"
+                    className="border-t border-white/6 bg-[#0a0a0f] px-4 py-4 md:hidden"
                 >
                     <div className="mx-auto flex max-w-7xl flex-col gap-1">
                         {navigation.map((item) => (
@@ -79,7 +79,7 @@ const Navber = () => {
                                 key={item.label}
                                 href={item.href}
                                 onClick={closeMenu}
-                                className="rounded-lg px-3 py-3 text-sm text-gray-300 transition hover:bg-white/[0.05] hover:text-white"
+                                className="rounded-lg px-3 py-3 text-sm text-gray-300 transition hover:bg-white/5 hover:text-white"
                             >
                                 {item.label}
                             </Link>
